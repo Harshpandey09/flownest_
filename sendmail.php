@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $service = htmlspecialchars($_POST['service']);
     $message = htmlspecialchars($_POST['message']);
 
-    $to      = "your@email.com"; // Change to your email
+    $to      = "flownest012@gmail.com"; // Change to your email
     $subject = "New Consultation Request";
     $body    = "Name: $name\nEmail: $email\nService: $service\nMessage:\n$message";
     $headers = "From: $email";
